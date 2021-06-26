@@ -1,0 +1,5 @@
+pages\BasePage.class
+pages\MyntraHome.class
+tests\MyntraTest.class
+tests\W3Launch.class
+pages\MyntraLogin.class

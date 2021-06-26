@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="${browser}"/>
+  <parameter name="env" value="${env}"/>
+  <parameter name="dataSource" value="${dataSource}"/>
+  <test thread-count="2" parallel="tests" name="TestNGPractice-Chrome(failed)" verbose="0">
+    <classes>
+      <class name="tests.MyntraTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="cleanUp"/>
+          <include name="DummyTest"/>
+          <include name="initSuite"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- tests.MyntraTest -->
+    </classes>
+  </test> <!-- TestNGPractice-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

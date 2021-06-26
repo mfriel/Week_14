@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 0.652 s <<< FAILURE! - in TestSuite
+tests.MyntraTest.initSuite[${env}](0)  Time elapsed: 0.518 s  <<< FAILURE!
+java.io.FileNotFoundException: src\test\resources\config.${env}.properties (The system cannot find the file specified)
+
